@@ -1,5 +1,22 @@
 {
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "a tool that creates readme's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mmarkdown": "^1.0.0"
+  },
+  "keywords": [],
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0"
   }
 }

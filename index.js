@@ -30,7 +30,7 @@ function writeToFile(response) {
   });
   //append the file with the rest of the markdown
   fs.appendFile(fileName, generate.generateMarkdown(response), (err) =>
-    err ? console.error(err) : console.log("information logged! Please check folder for your new README")
+    err ? console.error(err) : console.log("information logged, README Created")
   );
 }
 
